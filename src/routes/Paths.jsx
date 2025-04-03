@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router"
 import Inicio from "../pages/Inicio"
 import NossoCafe from "../pages/NossoCafe"
 import Noticias from "../pages/Noticias"
+import Noticia from "../pages/Noticia"
 import Contato from "../pages/Contato"
 import Cardapio from "../pages/Cardapio"
 import Franquia from "../pages/Franquia"
@@ -25,6 +26,10 @@ const Paths = () => {
           <Route 
             path="/noticias" 
             element={<Noticias />} 
+          />
+          <Route 
+            path="/noticias/:id" 
+            element={<Noticia />} 
           />
           <Route 
             path="/contato" 

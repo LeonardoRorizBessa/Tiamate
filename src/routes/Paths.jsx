@@ -8,6 +8,7 @@ import Cardapio from "../pages/Cardapio"
 import Franquia from "../pages/Franquia"
 import NotFound from "../pages/NotFound"
 import Header from "../components/Header"
+import Footer from "../components/Footer"
 
 const Paths = () => {
   return ( 
@@ -48,6 +49,7 @@ const Paths = () => {
             element={<NotFound />} 
           />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
    );

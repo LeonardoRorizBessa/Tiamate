@@ -2,11 +2,13 @@
 
 @theme {
   --color-preto: #292625;
+  --color-marron-preto: #3B2416;
   --color-marron-escuro: #A97744;
   --color-marron-claro: #C7794A;
   --color-vinho: #64221D;
   --color-cinza: #E7E1DF;
   --color-branco: #FDF5E3;
+  --color-amarelo: #F7AE1A;
 }
 
 body {

@@ -1,8 +1,15 @@
+import Banner from "../components/Banner"
+import bannerFranquia from "../assets/banners/banner-franquia.png"
+
 const Franquia = () => {
   return ( 
     <>
-      <div className="flex justify-center items-center h-screen bg-black">
-        <h1 className="font-bold text-4xl text-white">Pagina Franquia</h1>
+      <div className="flex flex-col justify-center items-center">
+        <Banner 
+          subTitulo="Abra sua Franquia Tiamate Coffee."
+          bg={bannerFranquia}
+          posicaoTexto="direita"
+        />
       </div>
     </>
    );

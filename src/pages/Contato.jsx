@@ -1,8 +1,15 @@
+import Banner from "../components/Banner"
+import bannerContato from "../assets/banners/banner-contato.png"
+
 const Contato = () => {
   return ( 
     <>
-      <div className="flex justify-center items-center h-screen bg-black">
-        <h1 className="font-bold text-4xl text-white">Pagina Contato</h1>
+      <div className="flex flex-col justify-center items-center">
+        <Banner 
+          subTitulo="Depois do café eu me expresso."
+          bg={bannerContato}
+          tamanhoTexto="450"
+        />
       </div>
     </>
    );

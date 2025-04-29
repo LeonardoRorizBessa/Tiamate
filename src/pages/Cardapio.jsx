@@ -1,8 +1,15 @@
+import Banner from "../components/Banner"
+import bannerCardapio from"../assets/banners/banner-cardapio.png"
+
 const Cardapio = () => {
   return ( 
     <>
-      <div className="flex justify-center items-center h-screen bg-black">
-        <h1 className="font-bold text-4xl text-white">Pagina Cardápio</h1>
+      <div className="fflex flex-col justify-center items-center">
+        <Banner 
+          subTitulo="O verdadeiro sabor do Café."
+          bg={bannerCardapio}
+          tamanhoTexto="450"
+        />
       </div>
     </>
    );

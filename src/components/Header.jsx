@@ -1,5 +1,5 @@
 import { NavLink, Link } from "react-router"
-import logo from "../assets/logo.png"
+import logoTiamate from "../assets/logo-tiamate.png"
 
 const Header = () => {
   return ( 
@@ -8,7 +8,7 @@ const Header = () => {
         <nav className="flex justify-center items-center gap-[45px] font-[500]">
           <img 
             className="cursor-pointer"
-            src={logo} 
+            src={logoTiamate} 
             alt="Logo Tiamate" 
           />
           <NavLink 

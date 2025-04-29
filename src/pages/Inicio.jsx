@@ -1,6 +1,7 @@
 import Banner from "../components/Banner"
-import bannerInicio from "../assets/banners/banner-inicio.png"
-import bannerAutentico from "../assets/banners/banner-autentico.png"
+import BemVindo from "../components/BemVindo"
+import bannerInicio from "../assets/banners/bannerInicio.png"
+import bannerAutentico from "../assets/banners/bannerAutentico.png"
 
 const Inicio = () => {
   return ( 
@@ -11,6 +12,7 @@ const Inicio = () => {
           subTitulo="aqui na Tiamate muda o dia."
           bg={bannerInicio}
         />
+        <BemVindo />
         <Banner 
           titulo="Café Autêntico"
           subTitulo="Chegou nosso café! Direto da fazenda."

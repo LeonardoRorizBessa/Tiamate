@@ -1,7 +1,16 @@
 @import "tailwindcss";
 
+@theme {
+  --color-preto: #292625;
+  --color-marron-escuro: #A97744;
+  --color-marron-claro: #C7794A;
+  --color-vinho: #64221D;
+  --color-cinza: #E7E1DF;
+  --color-branco: #FDF5E3;
+}
+
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Archivo", sans-serif;
   box-sizing: border-box;
   border: none;
   padding: 0;

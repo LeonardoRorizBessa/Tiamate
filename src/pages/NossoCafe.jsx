@@ -1,6 +1,6 @@
 import Banner from "../components/Banner"
 import Processos from "../components/Processos"
-import bannerNossoCafe from "../assets/banners/banner-nosso-cafe.png"
+import bannerNossoCafe from "../assets/banners/bannerNossoCafe.png"
 import imgColheita from "../assets/processos/colheita.png"
 import imgTorragem from "../assets/processos/torragem.png"
 import imgMoagem from "../assets/processos/moagem.png"

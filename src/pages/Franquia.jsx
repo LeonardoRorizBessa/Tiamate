@@ -1,5 +1,5 @@
 import Banner from "../components/Banner"
-import bannerFranquia from "../assets/banners/banner-franquia.png"
+import bannerFranquia from "../assets/banners/bannerFranquia.png"
 
 const Franquia = () => {
   return ( 

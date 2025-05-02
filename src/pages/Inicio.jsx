@@ -8,6 +8,7 @@ import missaoImg from "../assets/pilares/missao.png"
 import visaoImg from "../assets/pilares/visao.png"
 import valoresImg from "../assets/pilares/valores.png"
 import bgVideo from "../assets/videosImgs/bgVideoInicio.png"
+import AmbienteInsta from "../components/ambienteInsta"
 
 const Inicio = () => {
   return ( 
@@ -54,6 +55,7 @@ const Inicio = () => {
           textoAutentico={true}
           social={false}
         />
+        <AmbienteInsta />
       </div>
     </>
    );

@@ -17,7 +17,7 @@ const Franquia = () => {
         />
         <Videos 
           bgVideo={bgVideo}
-          height={false}
+          videoHeight={"h-[500px]"}
         />
         <BannerInfos 
           imagem={bannerInfos01} 

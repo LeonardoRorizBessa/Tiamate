@@ -2,11 +2,11 @@ import botaoPlay from "../assets/videosImgs/botaoPlay.png"
 
 const Videos = ({ 
   bgVideo, 
-  height = true,
+  videoHeight,
 }) => {
   return ( 
     <>
-      <div className={`relative flex justify-center items-center w-full ${height ? "h-[600px]" : "h-[500px]"}`}>
+      <div className={`relative flex justify-center items-center w-full ${videoHeight}`}>
         <img 
           className="absolute w-full h-full object-cover"
           src={bgVideo} 

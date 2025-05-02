@@ -40,6 +40,7 @@ const Inicio = () => {
           <h1 className="max-w-[770px] text-[50px] font-[700] text-marron-escuro leading-[100%]">Coisas boas acontecem àqueles que gostam de café</h1>
           <Videos 
             bgVideo={bgVideo}
+            videoHeight={"h-[600px]"}
           />
         </div>
         <Banner 

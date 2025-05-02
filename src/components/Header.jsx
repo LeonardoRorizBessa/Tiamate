@@ -1,5 +1,5 @@
 import { NavLink, Link } from "react-router"
-import logoTiamate from "../assets/logos/logo-tiamate.png"
+import logoTiamate from "../assets/logos/logoTiamate.png"
 
 const Header = () => {
   return ( 

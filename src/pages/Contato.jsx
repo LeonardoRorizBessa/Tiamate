@@ -8,7 +8,7 @@ const Contato = () => {
         <Banner 
           subTitulo="Depois do café eu me expresso."
           bg={bannerContato}
-          tamanhoTexto="450"
+          textoWidth={"max-w-[450px]"}
         />
       </div>
     </>

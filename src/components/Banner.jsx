@@ -1,54 +1,33 @@
-import logoFacebook from "../assets/midias-sociais/facebook-g.png"
-import logoInstagram from "../assets/midias-sociais/instagram-g.png"
-import logoYoutube from "../assets/midias-sociais/youtube-g.png"
-import logoLinkedin from "../assets/midias-sociais/linkedin-g.png"
+import logoFacebook from "../assets/midiaSociais/facebookGG.png"
+import logoInstagram from "../assets/midiaSociais/instagramGG.png"
+import logoYoutube from "../assets/midiaSociais/youtubeGG.png"
+import logoLinkedin from "../assets/midiaSociais/linkedinGG.png"
 
 const Banner = ({ 
+  temTitulo = false,
   titulo, 
   subTitulo,
-  bg, 
-  posicaoTexto,
-  tamanhoTexto,
+  bg,
+  textoWidth,
+  textoDireita = false,
   textoAutentico = false,
   social = true,
 }) => {
-  // Tamanho do texto
-  let tamanhoTextoClasse = ""
-
-  switch (tamanhoTexto) {
-    case "450":
-      tamanhoTextoClasse = "max-w-[450px]"
-      break;
-    default:
-      tamanhoTextoClasse = "max-w-[550px]"
-      break;
-  }
-
-  // Posição do texto
-  let posicaoTextoClasse = ""
-
-  switch (posicaoTexto) {
-    case "direita":
-      posicaoTextoClasse = "right-[635px] translate-x-full"
-      break;
-    default:
-      posicaoTextoClasse = "left-[135px]"
-      break;
-  }
-
   return ( 
     <>
-      <div 
-        className="flex items-center relative w-full h-[500px] bg-cover bg-center" 
-        style={{ backgroundImage: `url(${bg})` }}
-      >
+      <div className="relative flex justify-center items-center w-full h-[500px]">
+        <img 
+          className="absolute w-full h-full object-cover"
+          src={bg}
+          alt="Imagem do banner" 
+        />
         <div
-          className={`absolute top-1/2 -translate-y-1/2 font-[700] text-[55px] leading-[100%] ${posicaoTextoClasse} ${tamanhoTextoClasse}`}
+          className={`absolute top-1/2 -translate-y-1/2 font-[700] text-[55px] leading-[100%] ${textoWidth} ${textoDireita ? "right-[635px] translate-x-full" : "left-[135px]"}`}
         >
-          <h1 className={`${textoAutentico ? 'text-marron-claro' : 'text-amarelo'}`}>
-            {titulo}<br/>
-            <span className={`text-branco ${textoAutentico ? 'font-[400] text-[50px]' : 'font-[700] text-[55px]'}`}>{subTitulo}</span>
-          </h1>
+          {temTitulo && (
+            <h1 className={`${textoAutentico ? 'text-marron-claro' : 'text-amarelo'}`}>{titulo}<br/></h1>
+          )}
+          <p className={`text-branco ${textoAutentico ? 'font-[400] text-[50px]' : 'font-[700] text-[55px]'}`}>{subTitulo}</p>
           {social && (
             <ul className="flex justify-start items-center gap-[30px] mt-[30px]">
               <li>

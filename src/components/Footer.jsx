@@ -1,10 +1,10 @@
 import { NavLink } from "react-router"
-import logoTiamate from "../assets/logos/logo-tiamate.png"
-import logoGracom from "../assets/logos/logo-gracom.png"
-import logoFacebook from "../assets/midias-sociais/facebook.png"
-import logoInstagram from "../assets/midias-sociais/instagram.png"
-import logoYoutube from "../assets/midias-sociais/youtube.png"
-import logoLinkedin from "../assets/midias-sociais/linkedin.png"
+import logoTiamate from "../assets/logos/logoTiamate.png"
+import logoGracom from "../assets/logos/logoGracom.png"
+import logoFacebook from "../assets/midiaSociais/facebook.png"
+import logoInstagram from "../assets/midiaSociais/instagram.png"
+import logoYoutube from "../assets/midiaSociais/youtube.png"
+import logoLinkedin from "../assets/midiaSociais/linkedin.png"
 
 const Footer = () => {
   return ( 

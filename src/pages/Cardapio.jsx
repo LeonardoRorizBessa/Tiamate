@@ -8,7 +8,7 @@ const Cardapio = () => {
         <Banner 
           subTitulo="O verdadeiro sabor do Café."
           bg={bannerCardapio}
-          tamanhoTexto="450"
+          textoWidth={"max-w-[450px]"}
         />
       </div>
     </>

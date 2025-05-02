@@ -40,6 +40,7 @@ const NossoCafe = () => {
         <Banner 
           subTitulo="Mais que sabor, sentimentos!"
           bg={bannerNossoCafe}
+          textoWidth={"max-w-[550px]"}
         />
         {DADOS.map((processo) => (
           <Processos

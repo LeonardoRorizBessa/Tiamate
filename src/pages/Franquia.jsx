@@ -13,7 +13,8 @@ const Franquia = () => {
         <Banner 
           subTitulo="Abra sua Franquia Tiamate Coffee."
           bg={bannerFranquia}
-          posicaoTexto="direita"
+          textoWidth={"max-w-[550px]"}
+          textoDireita={true}
         />
         <Videos 
           bgVideo={bgVideo}

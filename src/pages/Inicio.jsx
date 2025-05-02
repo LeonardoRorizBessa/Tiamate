@@ -14,9 +14,11 @@ const Inicio = () => {
     <>
       <div className="flex flex-col justify-center items-center">
         <Banner 
+          temTitulo={true}
           titulo="Um café quentinho" 
           subTitulo="aqui na Tiamate muda o dia."
           bg={bannerInicio}
+          textoWidth={"max-w-[550px]"}
         />
         <BemVindo />
         <div className="flex flex-row justify-between bg-white w-full px-[135px] py-[150px]">
@@ -44,10 +46,11 @@ const Inicio = () => {
           />
         </div>
         <Banner 
+          temTitulo={true}
           titulo="Café Autêntico"
           subTitulo="Chegou nosso café! Direto da fazenda."
           bg={bannerAutentico}
-          tamanhoTexto="450"
+          textoWidth={"max-w-[450px]"}
           textoAutentico={true}
           social={false}
         />

@@ -5,6 +5,7 @@ import bgVideo from "../assets/videosImgs/bgVideoFranquia.png"
 import bannerFranquia from "../assets/banners/bannerFranquia.png"
 import bannerInfos01 from "../assets/bannersInfos/bannerInfos01.png"
 import bannerInfos02 from "../assets/bannersInfos/bannerInfos02.png"
+import EscolhaModelos from "../components/escolhaModelos"
 
 const Franquia = () => {
   return ( 
@@ -20,6 +21,7 @@ const Franquia = () => {
           bgVideo={bgVideo}
           videoHeight={"h-[500px]"}
         />
+        <EscolhaModelos />
         <BannerInfos 
           imagem={bannerInfos01} 
           texto="Quer lucrar com sua própria Tiamate? Seja um franqueado!"

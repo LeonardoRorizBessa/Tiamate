@@ -4,7 +4,7 @@ import logoTiamate from "../assets/logos/logoTiamate.png"
 const Header = () => {
   return ( 
     <>
-      <div className="flex justify-between px-[135px] py-[30px] bg-preto text-branco text-lg">
+      <header className="flex justify-between px-[135px] py-[30px] bg-preto text-branco text-lg">
         <nav className="flex justify-center items-center gap-[45px] font-[500]">
           <img 
             className="cursor-pointer mr-[10px]"
@@ -50,7 +50,7 @@ const Header = () => {
             Seja um Franquiado
           </Link>
         </button>
-      </div>
+      </header>
     </>
    );
 }

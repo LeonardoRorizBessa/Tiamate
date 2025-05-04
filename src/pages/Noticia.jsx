@@ -23,7 +23,7 @@ const Noticia = () => {
 
   return ( 
     <>
-      <div className="flex flex-col justify-center items-center h-screen bg-black">
+      <section className="flex flex-col justify-center items-center h-screen bg-black">
         <h1 className="font-bold text-4xl text-white">Pagina Noticia</h1>
         {
           noticias.filter(noticia => noticia.id == id).map(noticia => (
@@ -33,7 +33,7 @@ const Noticia = () => {
             </div>
           ))
         }
-      </div>
+      </section>
     </>
    );
 }

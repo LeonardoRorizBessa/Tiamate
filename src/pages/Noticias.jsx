@@ -3,7 +3,7 @@ import { Link } from "react-router";
 const Noticias = () => {
   return ( 
     <>
-      <div className="flex flex-col justify-center items-center h-screen bg-black">
+      <section className="flex flex-col justify-center items-center h-screen bg-black">
         <h1 className="font-bold text-4xl text-white">Pagina Notícias</h1>
         <ul className="flex flex-col text-white font-bold gap-4 mt-4">
           <li>
@@ -16,7 +16,7 @@ const Noticias = () => {
             <Link to={"/noticias/3"}>Noticia 3</Link>
           </li>
         </ul>
-      </div>
+      </section>
     </>
    );
 }

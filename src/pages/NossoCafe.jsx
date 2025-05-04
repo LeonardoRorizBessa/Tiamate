@@ -36,12 +36,14 @@ const NossoCafe = () => {
 
   return ( 
     <>
-      <div className="flex flex-col justify-center items-center">
-        <Banner 
-          subTitulo="Mais que sabor, sentimentos!"
-          bg={bannerNossoCafe}
-          textoWidth={"max-w-[550px]"}
-        />
+      <main className="flex flex-col justify-center items-center">
+        <section className="relative flex justify-center items-center w-full h-[500px]">
+          <Banner 
+            subTitulo="Mais que sabor, sentimentos!"
+            bg={bannerNossoCafe}
+            textoWidth={"max-w-[550px]"}
+          />
+        </section>
         {DADOS.map((processo) => (
           <Processos
             key={processo.id}
@@ -51,7 +53,7 @@ const NossoCafe = () => {
             isPar={processo.id % 2 === 0}
           />
         ))}
-      </div>
+      </main>
     </>
    );
 }

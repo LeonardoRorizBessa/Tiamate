@@ -9,7 +9,7 @@ import logoLinkedin from "../assets/midiaSociais/linkedin.png"
 const Footer = () => {
   return ( 
     <>
-      <div className="flex flex-col justify-center px-[135px] py-[70px] bg-preto">
+      <footer className="flex flex-col justify-center px-[135px] py-[70px] bg-preto">
         <div className="flex justify-between items-center">
           <img 
             className="cursor-pointer"
@@ -99,7 +99,7 @@ const Footer = () => {
             />
           </div>
         </div>
-      </div>
+      </footer>
     </>
    );
 }

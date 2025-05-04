@@ -4,13 +4,15 @@ import bannerContato from "../assets/banners/bannerContato.png"
 const Contato = () => {
   return ( 
     <>
-      <div className="flex flex-col justify-center items-center">
-        <Banner 
-          subTitulo="Depois do café eu me expresso."
-          bg={bannerContato}
-          textoWidth={"max-w-[450px]"}
-        />
-      </div>
+      <main className="flex flex-col justify-center items-center">
+        <section className="relative flex justify-center items-center w-full h-[500px]">
+          <Banner 
+            subTitulo="Depois do café eu me expresso."
+            bg={bannerContato}
+            textoWidth={"max-w-[450px]"}
+          />
+        </section>
+      </main>
     </>
    );
 }

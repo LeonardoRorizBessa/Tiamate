@@ -2,13 +2,13 @@ import Banner from "../components/Banner"
 import BemVindo from "../components/BemVindo"
 import Pilares from "../components/Pilares"
 import Videos from "../components/Videos"
+import AmbienteInsta from "../components/AmbienteInsta"
 import bannerInicio from "../assets/banners/bannerInicio.png"
 import bannerAutentico from "../assets/banners/bannerAutentico.png"
 import missaoImg from "../assets/pilares/missao.png"
 import visaoImg from "../assets/pilares/visao.png"
 import valoresImg from "../assets/pilares/valores.png"
 import bgVideo from "../assets/videosImgs/bgVideoInicio.png"
-import AmbienteInsta from "../components/ambienteInsta"
 
 const Inicio = () => {
   return ( 

@@ -1,11 +1,11 @@
 import Banner from "../components/Banner"
 import Videos from "../components/Videos"
+import EscolhaModelos from "../components/EscolhaModelos"
 import BannerInfos from "../components/BannerInfos"
 import bgVideo from "../assets/videosImgs/bgVideoFranquia.png"
 import bannerFranquia from "../assets/banners/bannerFranquia.png"
 import bannerInfos01 from "../assets/bannersInfos/bannerInfos01.png"
 import bannerInfos02 from "../assets/bannersInfos/bannerInfos02.png"
-import EscolhaModelos from "../components/escolhaModelos"
 
 const Franquia = () => {
   return ( 

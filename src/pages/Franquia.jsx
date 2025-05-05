@@ -2,6 +2,7 @@ import Banner from "../components/Banner"
 import Videos from "../components/Videos"
 import EscolhaModelos from "../components/EscolhaModelos"
 import BannerInfos from "../components/BannerInfos"
+import Depoimento from "../components/Depoimento"
 import bgVideo from "../assets/videosImgs/bgVideoFranquia.png"
 import bannerFranquia from "../assets/banners/bannerFranquia.png"
 import bannerInfos01 from "../assets/bannersInfos/bannerInfos01.png"
@@ -39,6 +40,9 @@ const Franquia = () => {
             imagem={bannerInfos02} 
             texto="Se você procura um negócio de sucesso, venha para Tiamte Coffee!"
           />
+        </section>
+        <section className="flex flex-col justify-center items-center text-center w-full py-[150px]">
+          <Depoimento />
         </section>
       </main>
     </>

@@ -1,4 +1,5 @@
 import Banner from "../components/Banner"
+import CafeteriasInsta from "../components/CafeteriasInsta"
 import bannerContato from "../assets/banners/bannerContato.png"
 
 const Contato = () => {
@@ -11,6 +12,9 @@ const Contato = () => {
             bg={bannerContato}
             textoWidth={"max-w-[450px]"}
           />
+        </section>
+        <section className="flex flex-col justify-center items-center w-full px-[135px] py-[150px]">
+          <CafeteriasInsta />
         </section>
       </main>
     </>
